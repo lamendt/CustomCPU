@@ -5,6 +5,8 @@ LD A len
 PUSH A
 ADR R0 R1 src
 ADR R2 R3 dst
+IMM R1 0
+IMM R3 0
 :memCpy
 :loop1
 MV AB R0 R1
